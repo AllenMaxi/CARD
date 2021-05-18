@@ -69,13 +69,16 @@ body {
 .card-body-img {
   border: 5px solid white;
   border-radius: 50%;
-  margin-top: calc(-48px - 5px);
+  margin-top: calc(-100px - 5px);
   background-color: white;
+  width: 200px;
+  height: 200px;
 }
 
 .card-body-title {
   font-size: 1.8rem;
   margin-top: 2rem;
+  text-transform: capitalize;
 }
 
 .card-body-title span {
@@ -89,6 +92,11 @@ body {
   font-size: 1.6rem;
   margin-top: 0;
   margin-bottom: 2rem;
+  text-transform: capitalize;
+}
+
+.card-body-text_ {
+  font-size: 1.3rem;
 }
 
 .card-footer {
@@ -112,6 +120,6 @@ body {
 
 .card-footer-social p {
   letter-spacing: 1px;
-  font-size: 1.2rem;
+  font-size: 1.3rem;
 }
 /*# sourceMappingURL=styles.css.map */
