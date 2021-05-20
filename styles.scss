@@ -2,6 +2,7 @@
         --dark-cyan: hsl(185, 75%, 39%);
         --very-dark: hsl(229, 23%, 23%);
         --dark-gray: hsl(227, 10%, 46%);
+        --blanco: #ffffff;
       }
 
 
@@ -23,7 +24,6 @@ body{
     background-position: right 50vw bottom 50vh, left 50vw top 50vh;
 }
 
-
 .flex{
     display: flex;
     justify-content: center;
@@ -37,6 +37,8 @@ body{
     border-radius: 16px;
     overflow: hidden;
     box-shadow: 0 5px 5px rgba(6, 1, 12, 0.233);
+    margin-bottom: 0;
+    padding-bottom: 0;
    &-header {
        width: 100%;
        display: block;
@@ -51,8 +53,8 @@ body{
         border-radius: 50%;
         margin-top: calc(-100px - 5px);
         background-color: white;
-        width: 200px;
-        height: 200px;
+        width: 250px;
+        height: 250px;
         }
     &-title{
         font-size: 1.8rem;
@@ -94,3 +96,44 @@ body{
   }
   }
 }
+.contenedor{
+    text-align: center;
+    &-pokebola{
+        text-align: center;
+        width: 200px;
+        cursor: pointer;
+    }
+    
+}
+.button{
+    padding: 2rem;
+    margin-bottom: 2rem;
+    background-color: var(--dark-cyan);
+   text-transform: uppercase;
+   color: var(--blanco);
+   border: none;
+
+img{
+    width: 50px;
+    height: 50px;
+    background-color: var(--dark-cyan);
+    cursor: pointer;
+}
+}
+.form-search{
+margin-top: 2rem;
+ i {
+     margin-right: 1rem;
+ }
+ input{
+        padding: 1rem;
+        outline: none;
+        background-color:rgb(218, 214, 214);
+        border-radius: 1rem;
+        border: gray;
+        color: var(--very-dark);
+        
+    }
+   
+}
+

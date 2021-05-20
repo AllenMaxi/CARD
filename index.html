@@ -8,6 +8,7 @@
   <link rel="stylesheet" href="CSS/normalize.css">
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
   <link rel="preload" href="styles.css" as="style">
   <link rel="stylesheet" href="styles.css">
   <link rel="shortcut icon" href="images/favicon-32x32.png" type="image/x-icon">
@@ -15,8 +16,13 @@
 
 </head>
 <body>
-  <main class="flex"> </main>
-  
+  <div class="contenedor">
+    <a href="pokedex.html"><img  class="contenedor-pokebola" src="images/Pokéball.png" alt="pokebola"></a>
+
+  <main class="flex"> 
+   
+  </main>
+ <button class="button" id="btn" onclick="location.reload()"> <img src="images/Poké_Ball_icon.svg.png" alt="pokeball"> </button>
   <template id="template-card">
     <article class="card">
       <img src="images/bg-pattern-card.svg" alt="imagen 1" class="card-header" />
@@ -42,8 +48,11 @@
           <p>Defensa</p>
         </div>
       </div>
+      
     </article>
   </template>
+
   <script src="JS/script.js"> </script>
+  <script src="JS/formulario.js"></script>
 </body>
 </html>
